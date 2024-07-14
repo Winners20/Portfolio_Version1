@@ -1,0 +1,118 @@
+@media(max-width: 768px){
+    nav{
+      padding: 24px;
+      display: flex;
+      justify-content:right ;
+      /* position: fixed; */
+      margin-bottom: 50px;
+    }
+    .Home{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      padding: 0px;      
+      margin-top: 5px;
+
+    }
+    .Home h1 {
+      font-size: 50px;
+    }
+    .Home h1 span{
+      font-size: 50px;
+    }
+    
+    .Headnote{
+      display: flex;
+      flex-direction: column;
+    }
+    .Headnote h1 {
+      gap: 5px;
+    }
+    #head {
+      min-width: 100px; 
+      min-height: 100px;
+      margin: 10px;
+    }
+    #about{
+      padding-top: 10px;
+    }
+    .about-me{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding:  20px;
+    }
+    .about-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+      width: 400px;
+      color: white;
+  }
+  
+    #About{
+      width: 200px;
+      margin: 15px;
+    }
+    .aboutheader{
+      font-size: 20px;
+    }
+    .about-me button{
+      border: none;
+      border-radius: 36px;
+      padding: 5px 5px;
+      margin-top: 5px;
+    }
+
+    /* skills section  */
+    .card{
+      width: 100px;
+    }
+    #Python-logo:hover{
+      width: 70px;
+    }
+    .contact-text{
+      text-align: center;
+    }
+    .textarea{
+      width: 70%;
+    }
+  }
+  @media(max-width: 1080px){
+  .Home{
+    /* gap: 150px; */
+    
+  }
+  }
+
+
+@media(max-width: 480px){
+
+.card{
+  width: 70px;
+}
+#Python-logo:hover{
+  width: 40px;
+}
+
+#About{
+  width: 200px;
+  margin: 15px;
+}
+.aboutheader{
+  font-size: 20px;
+}
+.about-me button{
+  border: none;
+  padding: 3px 3px;
+  margin-top: 3px;
+}
+.font{
+  max-width: 300px;
+}
+}
